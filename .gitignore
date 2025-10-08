@@ -1,0 +1,91 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments and Python tooling
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.conda_env/
+.python-version
+.venv*/
+.hatch/
+.rye/
+.pdm-build/
+
+# Packaging / build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+MANIFEST
+
+# Linters, type checkers, and test/coverage caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.nox/
+.pyre/
+.pytype/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Data science: local data, outputs, and caches (keep docs/placeholders)
+data/**
+!data/.gitkeep
+!data/README.md
+datasets/**
+!datasets/.gitkeep
+!datasets/README.md
+models/**
+!models/.gitkeep
+!models/README.md
+outputs/**
+!outputs/.gitkeep
+!outputs/README.md
+.cache/
+tmp/
+.tmp/
+
+# Logs and runtime files
+logs/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+*.env
+.envrc
+*.secret
+*.secrets
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
